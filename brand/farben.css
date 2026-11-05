@@ -1,0 +1,8 @@
+/* Corporate Design – Cornelia Spötzl – verbindliche Markenfarben */
+:root {
+  --cs-petrol:    #176678; /* Überschriften, Hervorhebungen */
+  --cs-hellblau:  #76B9DC; /* dezent */
+  --cs-sandbeige: #E8D9B5; /* dezent */
+  --cs-offwhite:  #F9F6F0; /* Hintergrund */
+  --cs-font: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
