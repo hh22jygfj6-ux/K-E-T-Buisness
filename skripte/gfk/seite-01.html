@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>GFK-Skript – Seite 1</title>
+<style>
+  @page { size: A4; margin: 0; }
+  :root {
+    --petrol: #176678; --hellblau: #76B9DC; --sand: #E8D9B5; --offwhite: #F9F6F0;
+    --text: #2F4A52;
+  }
+  html, body { margin: 0; padding: 0; }
+  body { font-family: "Century Gothic", "URW Gothic", sans-serif; color: var(--text); }
+  .seite {
+    width: 210mm; height: 297mm; position: relative; overflow: hidden;
+    background: url("../../brand/briefkopf/briefkopf.png") no-repeat 0 0 / 210mm 297mm;
+  }
+  .inhalt { position: absolute; top: 50mm; left: 24mm; right: 24mm; bottom: 36mm; }
+
+  .zitat { text-align: center; margin: 0 0 6mm; }
+  .zitat .frage { font-size: 17pt; color: var(--petrol); letter-spacing: .2pt; line-height: 1.3; }
+  .zitat .antwort { font-size: 12pt; color: var(--petrol); margin-top: 1.5mm; }
+  .zitat sup { font-size: 8pt; }
+  .trenner { width: 38mm; height: 0; border-top: .6pt solid var(--hellblau); margin: 4mm auto 0; }
+
+  h1 { font-weight: normal; font-size: 19pt; color: var(--petrol); text-align: center;
+       letter-spacing: 1.5pt; margin: 0 0 5mm; }
+  h2 { font-weight: normal; font-size: 13pt; color: var(--petrol); margin: 0 0 3mm; letter-spacing: .5pt; }
+
+  .gedicht { border-left: 1.2pt solid var(--sand); padding: 0 0 0 6mm; margin: 0 6mm 7mm;
+             font-size: 10pt; line-height: 1.5; font-style: italic; }
+  .gedicht p { margin: 0 0 1.2mm; }
+
+  .absatz { font-size: 10pt; line-height: 1.55; margin: 0 0 5mm; }
+  .frage-klein { color: var(--petrol); margin: 0 0 2mm; }
+
+  .gegenueber { display: flex; gap: 6mm; }
+  .tier { flex: 1; padding: 3.5mm 4.5mm; border-radius: 2mm; font-size: 9.5pt; line-height: 1.5; }
+  .tier.wolf { background: #F9F6F0; border: .6pt solid var(--sand); }
+  .tier.giraffe { background: #F2F8FB; border: .6pt solid #C9E3F1; }
+  .tier h3 { margin: 0 0 1.5mm; font-weight: normal; font-size: 11.5pt; color: var(--petrol); letter-spacing: .5pt; }
+  .tier p { margin: 0; }
+
+  .fussnote { position: absolute; left: 24mm; right: 24mm; bottom: 26mm; font-size: 8pt; color: #5E7A82;
+              border-top: .5pt solid var(--hellblau); padding-top: 1.5mm; width: 45mm; }
+  .fussnote span { white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="seite">
+  <div class="inhalt">
+    <div class="zitat">
+      <div class="frage">Willst du Recht haben oder glücklich sein?</div>
+      <div class="antwort">Beides geht nicht.<sup>1</sup></div>
+      <div class="trenner"></div>
+    </div>
+
+    <h1>Gewaltfreie Kommunikation</h1>
+
+    <div class="gedicht">
+      <p>Wenn du dir dein Leben schwer machen willst, dann denk schlecht über andere und beschwere dich.</p>
+      <p>Du kannst dir dein Leben noch schwerer machen, wenn du anderen sagst, was du über sie denkst.</p>
+      <p>Reicht dir dieses Malheur noch nicht, dann versuche, die anderen zu ändern.</p>
+      <p>Du kannst dein Unglück noch erheblich vergrößern, wenn du Drohung und Strafe verwendest, um die anderen zu ändern.</p>
+      <p>Möchtest du vollends in ein dunkles Loch fallen, dann denk schlecht über dich.</p>
+      <p>Wenn du in der Dunkelheit bleiben möchtest, dann denke, was die Leute über dich denken.</p>
+    </div>
+
+    <h2>Wolfs- und Giraffensprache</h2>
+    <p class="frage-klein">Was ist eigentlich Gewaltfreie Kommunikation?</p>
+    <p class="absatz">Unsere Sprache spiegelt wider, wie wir mit anderen und auch mit uns selbst umgehen.
+      Marshall Rosenberg hat sehr genau beleuchtet, wie wir Sprache benutzen: als Mittel, um Distanz zu
+      erzeugen (Wolfssprache), oder als Mittel, um Nähe zu erschaffen (Giraffensprache).</p>
+
+    <div class="gegenueber">
+      <div class="tier wolf">
+        <h3>Der Wolf</h3>
+        <p>bewertet, kritisiert, fällt Urteile, interpretiert, vergleicht, straft, fordert. Er kommuniziert auf eine aggressive Art und Weise.</p>
+      </div>
+      <div class="tier giraffe">
+        <h3>Die Giraffe</h3>
+        <p>kommuniziert auf eine einfühlsame Weise: Sie beobachtet, nimmt ihr Gefühl und ihr Bedürfnis wahr und äußert das, was sie möchte, als Bitte. Sie nimmt das Gefühl und das Bedürfnis anderer wahr und hat ein offenes Ohr für die Bitten anderer Menschen.</p>
+      </div>
+    </div>
+  </div>
+  <div class="fussnote"><span><sup>1</sup> Marshall B. Rosenberg</span></div>
+</div>
+</body>
+</html>

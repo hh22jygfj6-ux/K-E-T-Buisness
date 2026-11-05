@@ -71,3 +71,11 @@ Kein eigenmächtiges Neudesign. Ist eine Änderung technisch nicht exakt umsetzb
 
 - Diese Angaben sind verbindlich. Fehlt eine Originaldatei (Logo, Vorlage, Bild), nachfragen.
 - Wiederverwendbare Farbwerte: `brand/farben.css`.
+
+## 8. Vorlagen & Projekte
+
+- Briefkopf (Bilddatei, A4): `brand/briefkopf/briefkopf.png` – wird unverändert als Seitenhintergrund verwendet.
+  Freier Textbereich: ca. 50 mm von oben bis ca. 265 mm (darunter beginnt die Fußwelle), seitlich 24 mm.
+- GFK-Skript: `skripte/gfk/` (HTML-Quelle je Seite → PDF über Chromium).
+- Century Gothic ist in der Cloud-Umgebung nicht installiert; ersatzweise wird **URW Gothic** (sehr ähnliche
+  geometrische Schrift) eingebettet. Die Quelldateien nennen „Century Gothic“ an erster Stelle.
